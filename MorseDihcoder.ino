@@ -9,7 +9,7 @@ const int DASH_PIN = 19;
 String currentMorse = "";        
 String assembledWord = "";       
 unsigned long lastPressTime = 0; 
-const unsigned long CHAR_TIMEOUT = 1000; // Increased to 1 second for a more comfortable typing pace
+const unsigned long CHAR_TIMEOUT = 1000; // 1 second buffer for a more comfortable typing pace
 const unsigned long WORD_TIMEOUT = 2200; // 2.2 seconds pause adds a space
 bool waitingForNextWord = false;
 
